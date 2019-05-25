@@ -1,0 +1,153 @@
+body {
+	background: url(pic/background-youtube.jpg) repeat-y ;
+	background-size: 100%;
+	background-attachment: fixed;
+	font-family: 'Josefin Sans', sans-serif;
+}
+* {
+	margin: 0px;
+	padding: 0px;
+}
+a {
+	text-decoration: none;
+}.logo {
+	background: black;
+	background-size: 100%; 
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	margin-bottom: 0.5%;
+	box-sizing: border-box;
+}
+.lohoH {
+	padding: 0.5%;
+	max-width: 100%;
+	display: block;
+	height: auto;
+}
+header {
+	height: 20%;
+}
+.head {
+	background: black;
+	display: block;
+	text-align: center;
+	padding-top: 0.8%;
+	padding-bottom: 1%;
+	margin-bottom: 5%;
+}
+.head a {
+	background-color: black;
+	display: inline-block;
+	width: 8%;
+	margin-right: 7%;
+	text-decoration: none;
+	font-size: 110%;
+	color: white;
+	padding: 0.5%;
+}
+.head a:hover {
+	border-bottom: 3px solid gold;
+	transition: 0.5s;
+	color: gold;
+}
+.head a:active{
+	background: url(pic/easteregg.jpg) no-repeat;
+	background-size: 90% 90% ;
+}
+footer {
+	background: black;
+	display: inline-block;
+	color: white;
+	width: 100%;
+	text-align: center;
+	padding: 3%;
+	font-size: 140%;
+}
+.content {
+	border: 3px solid red;
+	border-radius: 5%;
+	color: white;
+	background: black;
+	width: 80%;
+	margin: 0% 10% 2% 2%;
+	padding: 3%;
+	line-height: 150%;
+	font-size: 140%;
+}
+.channels {
+	border: 3px solid red;
+	border-radius: 5%;
+	color: white;
+	background: black;
+	width: 80%;
+	margin: 0% 10% 2% 2%;
+	padding: 3%;
+	line-height: 150%;
+	font-size: 120%;
+	text-align: justify;
+}
+iframe {
+	justify-content: center;
+	overflow: hidden;
+	display: block;
+	padding-left: 8%; 
+}
+.channels a{
+	color: gold;
+}
+.channels a:hover {
+	border-bottom: 1px solid gold;
+	transition: 0.5s;
+}
+#toTop {
+width:6%;
+border:2px solid gold;
+background:black;
+text-align:center;
+padding:1%;
+position:fixed;
+margin: 80% 0.5% 0% 0%;
+bottom:10px;
+right:10px;
+cursor:pointer;
+display:none;
+color: white;
+font-size:110%;
+opacity: 0.5;
+}
+@media screen and (max-width: 1440px) {
+	body {
+		background-size: cover;
+	}
+}
+@media screen and (max-width: 1050px) {
+	.logo img{
+		height: auto;
+		width: 90%;
+	}
+	iframe {
+		width: 90%;
+	}
+}
+@media screen and (max-width: 750px) {
+	.head a{
+		font-size: 80%;
+	}
+	iframe {
+		width: 90%;
+	}
+	
+}
+@media screen and (max-width: 455px){
+	.head a{
+		margin-bottom: 1%;
+		font-size: 100%;
+		display: block;
+		border: 1px solid gold;
+		width: 100%;
+	}
+	iframe {
+		width: 90%;
+	}
+}
