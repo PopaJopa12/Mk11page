@@ -11,6 +11,10 @@ body {
 a {
 	text-decoration: none;
 }
+#easteregg {
+	width: 10%;
+	background: black;
+}
 .logo {
 	background: black;
 	background-size: 100%; 
