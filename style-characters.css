@@ -186,6 +186,9 @@ footer {
 		width: 70%;
 		padding-right: 3%;
 	}
+	.mainC {
+		margin-left: 1%;
+	}
 }
 @media screen and (max-width: 750px) {
 	.head a{
