@@ -112,6 +112,7 @@ footer {
 	margin-right: 2%;
 	padding: 1%;
 	width: 30%;
+	cursor: pointer;
 }
 .content h5{
 	color: white;
