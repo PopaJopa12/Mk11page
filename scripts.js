@@ -3,7 +3,7 @@ $(function () {
 		el =  elWrap.find('img'),
 		indexImg = 1,
 		indexMax = el.length,
-		phase = 3000;
+		phase = 2500;
 	
 	function change () {
 		el.fadeOut(500);
@@ -45,11 +45,3 @@ $(function () {
 		change ();
 	});	
 });
-$(function(){
-	$("#easteregg").click(function(){
-		$(".logo img").attr("src","pic/eastereggback.jpg")
-	})
-	$("#easteregg").dblclick(function(){
-		$(".logo img").attr("src","pic/logo.jpg")
-	})
-})

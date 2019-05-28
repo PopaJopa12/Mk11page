@@ -28,9 +28,13 @@ $(function() {
 });
 $(function(){
 	$("#easteregg").click(function(){
-		$(".logo img").attr("src","pic/eastereggback.jpg")
+		$(".logo img").attr("src","pic/easteregglogo.jpg");
+		$("body").css('background','url(pic/eastereggback.jpg)');
+		$(".hide").attr("src","pic/shrekforever.jpg");
+		$(".content h5").text("Shrek is love");
 	})
 	$("#easteregg").dblclick(function(){
-		$(".logo img").attr("src","pic/logo.jpg")
+		$(".logo img").attr("src","pic/logo.jpg");
+		$("body").css('background','url(pic/backgroundreddragon.jpg) 90%');
 	})
 })
